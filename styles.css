@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+/*global*/
+
+body{
+    background-color: #e5f9e4;
+}
+
+h1{
+    color: #1e5f13;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+h2 {
+    color: #66bf73;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    Padding-bottom:10px;
+}
+
+h3 {
+    color: #1e5f13;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    Padding-bottom:10px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#40514E;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*top container*/
+.top-container{
+background-color: #e5f9e4;
+position: relative;
+padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+}
+
+.mountain {
+    position:relative;
+    left:300px;
+}
+
+/*second container*/
+.second-container{
+    padding-top:50px;
+    margin:0;
+    padding-bottom:100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.second-container ul{
+    color:#e5f9e4;
+}
+.bold-description{
+    font-size:22px;
+    font-weight: bold;
+}
+
+hr {
+    border: dotted #1e5f13 5px;
+    border-bottom: none;
+    width:6%;
+}
+
+.info{
+    padding:20px;
+}
+
+#keyboard{
+    display: inline-block;
+    width: 10px;
+}
+
+#game{
+    box-shadow: 10px 10px 15px #a1bda4;  
+}
+
+.keyboard{
+    width:200px;
+    height: 100px;
+}
+
+#start-btn {
+    background-color: #66bf73;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#start-btn:hover{
+    background-color: #1e5f13;
+    color:white;
+}
+
+#start-btn {
+    background-color: #66bf73;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#point-btn {
+    background-color: #0c3011;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.span{
+    font-weight: bold;
+}
