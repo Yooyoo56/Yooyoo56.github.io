@@ -1,1 +1,66 @@
 # Yooyoo56.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href= "styles.css"/>
+    <link rel="icon" href="images/cat-face.png">
+
+    <title>tabby's journey</title>
+</head>
+<body>
+    <div class ="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="bottom-cloud">
+        <h1>Tabby's Journey</h1>
+        <h2>Help tabby to finish his errands! </h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="bottom-cloud">
+        <img class="mountain" src="images/mountain.png" alt="mountain">
+
+    </div>
+
+    <div class= "second-container">
+
+        <div class = "info">
+            <h2>How to game?</h2>
+            <hr>
+            <ul>
+                <li> <p> <span class  = "bold-description"> Using the four keyboard arrow ⬅️ ⬆️ ➡️ ⬇️, please help the tabby to finsh the errands!</span></p></li>
+                <li><img class="tabby" src="images/front_1.png" alt="tabby"> <p><span class = "bold-description">Tabby</span>: Please let him to do the errands</p> </li>
+                <li><img class="friend" src="images/friend.png" alt="tabby's girlfriend">
+                    <p><span class= "bold-description">Tabby's girlfriend</span>: Be careful! once tabby meets his girlfriend, it's GAMEOVER! </p></li>
+                    <li><img class= "pudding" src = "images/pudding.png" alt= "pudding"><p><span class= "bold-description">Pudding</span>: Be Careful! It's not a Cookie! Once he touches, it's GAMEOVER!</p></li>
+                    <li><img class= "cookie" src = "images/cookie.png" alt= "cookie"><p> <span class = "bold-description"> Cookie </span> : Tabby needs to collect all the cookies! </p></li>
+                    <li><img class= "mom" src= "images/mom.png" alt= "tabby's mom"><p> <span class= "bold-description"> Tabby's mom</span> : Need to collect all the cookies to mom! His missions will be completed! </p></li>
+            </ul>
+            <button id="start-btn" onclick="hideShow()">Start game!</button>
+            <button id="point-btn">Points: <span id ="points">0</span></button>
+
+        </div>
+        <div class = "displayGame"></div>
+            <div class = "canvas">
+                <canvas id = "game"></canvas>
+            </div>
+        </div>
+    </div>
+
+<script src="game.js" type ="module"></script>
+<script src="TileMap.js" type = "module"></script>
+<script src= "tabby.js" type = "module"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+function hideShow(){
+var x = document.getElementById("game");
+if (x.style.display === "none"){
+    x.style.display = "block";
+}else {
+    x.style.display = "none";
+}
+}
+</script>
+
+</body>
+</html>
